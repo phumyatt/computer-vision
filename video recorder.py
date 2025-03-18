@@ -78,6 +78,7 @@ while True:
                 out.release()  # 비디오 파일 저장 종료
                 out = None  # 객체 초기화
 # 리소스 해제
+
 cap.release()
 if out:
     out.release()  # 비디오 객체 해제
